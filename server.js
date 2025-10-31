@@ -1,5 +1,6 @@
 import express from 'express';
-import { X402 } from '@coinbase/x402';
+import { X402Client } from '@coinbase/x402';
+const x402 = new X402Client({ ... });
 
 const app = express();
 app.use(express.json());
