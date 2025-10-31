@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "express": "^4.19.2",
-    "@coinbase/x402": "^1.0.0"
+    "@coinbase/x402": "^0.7.0"
   }
 }
